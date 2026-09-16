@@ -1,0 +1,10 @@
+services:
+  mythos-minecraft:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: mythos-minecraft:local
+    ports:
+      # Port host 8001 dipilih karena 8000 telah dipakai layanan lain di VM.
+      - "${APP_PORT:-8001}:80"
+    restart: unless-stopped
