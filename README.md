@@ -2,8 +2,6 @@
 
 A Minecraft-style voxel sandbox that runs entirely in the browser. One HTML file, no build step, no assets — textures, terrain, and sound are all generated procedurally at runtime. Rendering uses [three.js](https://threejs.org) loaded from a CDN.
 
-**Live demo:** https://minecraft.ngodingpakeai.com
-
 ## Run
 
 ```sh
